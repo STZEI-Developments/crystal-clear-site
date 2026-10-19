@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crystal Clear Window Cleaning | Edmonton</title>
+<meta name="description" content="Student-run window cleaning in Edmonton. Affordable, hardworking and detail-focused. Message us for a same-day quote.">
+<meta property="og:title" content="Crystal Clear Window Cleaning">
+<meta property="og:description" content="Student-run window cleaning in Edmonton. Same-day quotes.">
+<meta property="og:image" content="img/house-side.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="mark" href="#top">
+    <span class="mark-name">Crystal Clear</span>
+    <span class="mark-sub">Window Cleaning &middot; Edmonton</span>
+  </a>
+  <a class="bar-cta" href="#quote">Get a quote</a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="kicker">Student-run crew &middot; Edmonton</p>
+    <h1>Your windows, spotless. <span>Quoted today, done this week.</span></h1>
+    <p class="lede">Affordable, hardworking and detail-focused. We treat your home like our own.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#quote">Get a free quote</a>
+      <a class="phone" data-phone hidden></a>
+    </div>
+  </section>
+
+  <section class="services" aria-labelledby="services-h">
+    <h2 id="services-h" class="label">What we do</h2>
+    <ol class="service-list">
+      <li>
+        <span class="num">01</span>
+        <div>
+          <h3>Window cleaning</h3>
+          <p>Inside and out, screens and tracks included.</p>
+        </div>
+      </li>
+      <li>
+        <span class="num">02</span>
+        <div>
+          <h3>Power washing</h3>
+          <p>Siding, driveways and decks.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="seasonal">
+      <span class="season-tag">Winter</span>
+      <p><strong>Snow shovelling</strong> for walks and driveways, once the snow starts.</p>
+    </div>
+  </section>
+
+  <section class="proof" aria-labelledby="proof-h">
+    <h2 id="proof-h" class="label">Recent work</h2>
+    <div class="photos">
+      <figure class="ph-wide">
+        <img src="img/house-side.jpg" width="1600" height="1200" loading="lazy"
+             alt="Side of a cream-sided Edmonton house with clean windows reflecting the sky">
+      </figure>
+      <figure class="ph-tall">
+        <img src="img/house-front.jpg" width="1200" height="1600" loading="lazy"
+             alt="White bungalow garage suite with front window and walkway in early spring">
+      </figure>
+    </div>
+    <blockquote class="promise">
+      <p>&ldquo;Affordable, hardworking, and detail-focused.&rdquo;</p>
+      <cite>The Crystal Clear crew</cite>
+    </blockquote>
+  </section>
+
+  <section class="steps" aria-labelledby="steps-h">
+    <h2 id="steps-h" class="label">How it works</h2>
+    <ol>
+      <li><strong>Message us.</strong> Tell us your area and what needs doing. A photo helps.</li>
+      <li><strong>Same-day quote.</strong> A real price back the same day.</li>
+      <li><strong>We show up when we said.</strong> On time, and the job done right.</li>
+    </ol>
+  </section>
+
+  <section class="quote" id="quote" aria-labelledby="quote-h">
+    <h2 id="quote-h">Get a quote</h2>
+    <p class="quote-sub">Takes a minute. We reply the same day.</p>
+
+    <p class="sent" role="status" hidden>Thanks, we got it. Expect a reply today.</p>
+
+    <form class="form" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_subject" value="New quote request: Crystal Clear website">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="">
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+
+      <label>Name
+        <input name="name" required autocomplete="name">
+      </label>
+      <label>Phone
+        <input name="phone" type="tel" required autocomplete="tel">
+      </label>
+      <label class="full">Address or neighbourhood
+        <input name="area" required autocomplete="street-address" placeholder="e.g. Bonnie Doon">
+      </label>
+
+      <fieldset class="full">
+        <legend>What do you need?</legend>
+        <label class="check"><input type="checkbox" name="service" value="Window cleaning" checked> Windows</label>
+        <label class="check"><input type="checkbox" name="service" value="Power washing"> Power washing</label>
+        <label class="check"><input type="checkbox" name="service" value="Snow shovelling"> Snow shovelling</label>
+      </fieldset>
+
+      <label class="full">Anything we should know?
+        <textarea name="details" rows="3" placeholder="How many windows, storeys, when suits you"></textarea>
+      </label>
+      <label class="full file">Photo (optional)
+        <input type="file" name="attachment" accept="image/*">
+      </label>
+
+      <button class="btn full" type="submit">Send for a quote</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p class="foot-name">Crystal Clear Window Cleaning</p>
+  <p>Local Edmonton, student-run. Serving Edmonton and nearby.</p>
+  <p class="foot-links">
+    <a data-facebook hidden>Facebook</a>
+    <a data-phone hidden></a>
+  </p>
+</footer>
+
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
